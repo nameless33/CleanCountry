@@ -1,0 +1,31 @@
+body{
+	height:100%;
+	width:100%;
+	background-image: url("/img/bg.jpg");
+	background-size: cover;
+}
+div#main{
+	border-radius:20px;
+	width:70%;
+	position:fixed;
+	left:15%;
+	top:10%;
+	height:65%;
+	text-align:center;
+	background-color:white;
+}
+.inp{
+	width:80%;
+}
+form{
+width:70%;
+margin-top:10px;
+display:inline-block;
+}
+h1{
+	font-size:45px;
+}
+.input-field{
+	display:block;
+	width:100%;
+}

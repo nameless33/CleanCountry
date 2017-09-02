@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Регистрация в проекте - Clean Country</title>
+	<script src="js/jquery.js"></script>
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" />
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+	<div id="main">
+		<h1>Clean country - регистрация в проекте</h1>
+		<form action="save_user.php" method="post">
+			<div class="input-field">
+          	<i class="material-icons prefix">account_circle</i>
+          	<input id="icon_prefix" type="text" class="validate" name="login" required>
+          	<label for="icon_prefix">Имя в проекте</label>
+        	</div>
+        	<div class="input-field">
+          	<i class="material-icons prefix">email</i>
+          	<input id="icon_prefix" type="email" required class="validate" name="email">
+          	<label for="icon_prefix">E-mail для обратной связи</label>
+        	</div>
+        	<div class="input-field">
+          	<i class="material-icons prefix">lock</i>
+          	<input id="icon_prefix" type="password" required name="password" class="validate">
+          	<label for="icon_prefix">Пароль</label>
+        	</div>
+			<input type="submit" class="waves-effect waves-light btn" style="padding:0!important" value="Принять участие!">
+		</form>
+	</div>
+</body>
+</html>
